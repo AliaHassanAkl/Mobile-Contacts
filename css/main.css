@@ -1,0 +1,25 @@
+*{
+    margin: 10px;
+    padding: 0;
+}
+.w-95{
+    width: 95%;
+}
+.w-5{
+    width: 5%;
+}
+.search {
+    padding: 1px 0;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+}
+.form-control{
+    border-radius: 30px;
+}
+.gray-100{
+    background-color: #DCDCDC;
+}
+.h-5{
+    height: 50px;
+}

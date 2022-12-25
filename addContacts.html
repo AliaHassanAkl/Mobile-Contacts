@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+      <div  id="addContact" class=" border border-3 w-75 m-auto">
+        <div>
+              <h1 class="m-1 ps-5 py-3 text-black-50">add new contact</h1>
+              <hr class="w-95 m-auto">
+          </div>
+          <div class="contactPhoto w-25 m-auto my-4 p-3 ">
+              <img src="image/name-people-person-user-icon--icon-search-engine-1.png" class="rounded-circle w-25 d-flex m-auto" alt="">
+              <a href="" class="text-decoration-none text-black-50 d-flex m-auto w-100 p-3 ps-4">add photo</a>
+          </div>
+          <div class="w-25 align-items-center m-auto">
+              <input type="text" id="inputFirstName" class=" form-control-plaintext border-bottom  " placeholder="First name">
+              <input type="text" id="inputLastName" class="form-control-plaintext border-bottom my-2" placeholder="Last name">
+              <div class="d-flex  m-auto my-2">
+                <input type="number" id="phoneKey" class="form-control-plaintext border-bottom w-25 pe-2 me-2" placeholder="+44">
+                <input type="number" id="phoneNum" class="form-control-plaintext border-bottom w-75" placeholder="123 4567">
+              </div>
+                <input type="email" id="inputemail" class="form-control-plaintext border-bottom" placeholder="E-mail">
+              <div class=" d-block  my-2 mx-5">
+                <button id="addNewContact" class="btn btn-success m-auto w-100 my-2 ">Add contact</button>
+                <button id="cancel" class="btn btn-primary m-auto w-100">cancel</button>
+              </div>
+         </div>
+    </div>
+      <div class="contactTools border border-3 w-75 m-auto mt-5">
+        <div class="search bg-dark "> <input type="text" class=" form-control border-2 border-success py-3 w-95 m-auto my-5" placeholder=" Search by contact " id="searchKey" > </div>
+        <div class="gray-100 pb-2">
+          <a href="#addContact" class="btn h-5 w-100 m-1 border-0 text-start "role="button"> <span class="float-start" > Add new contacts</span> <span class="float-end"><i class="fa-solid fa-plus"></i></span> </a>
+          <hr>
+          <span class="p-3">Contacts</span>
+        </div>
+        <div class="contactList" >
+          <ul id="listOfContacts" class="list-group list-group-flush">
+            
+            <!-- <li class="list-group-item">
+              <a href="#" class="d-block text-decoration-none" role="button">
+                <img src="image/name-people-person-user-icon--icon-search-engine-1.png" class="w-5 border border-1 me-3 rounded-circle float-start" alt=""> 
+                  <span class="d-flex text-black">contact one</span>
+                  <span class="d-flex text-black-50">0101000000</span>
+              </a>  
+            </li>
+            <li class="list-group-item">
+              <a href="#" class="d-block text-decoration-none" role="button">
+                <img src="image/name-people-person-user-icon--icon-search-engine-1.png" class="w-5 border border-1 me-3 rounded-circle float-start" alt=""> 
+                  <span class="d-flex text-black">contact one</span>
+                  <span class="d-flex text-black-50">0101000000</span>
+              </a>    
+            </li>
+            <li class="list-group-item">
+              <a href="#" class="d-block text-decoration-none" role="button">
+                <img src="image/name-people-person-user-icon--icon-search-engine-1.png" class="w-5 border border-1 me-3 rounded-circle float-start" alt=""> 
+                  <span class="d-flex text-black">contact one</span>
+                  <span class="d-flex text-black-50">0101000000</span>
+              </a>  
+            </li>
+            <li class="list-group-item">
+              <a href="#" class="d-block text-decoration-none" role="button">
+                <img src="image/name-people-person-user-icon--icon-search-engine-1.png" class="w-5 border border-1 me-3 rounded-circle float-start" alt=""> 
+                  <span class="d-flex text-black">contact one</span>
+                  <span class="d-flex text-black-50">0101000000</span>
+              </a>  
+            </li> -->
+          </ul>
+        </div>
+
+     </div>
+      
+        <script src="js/all.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>
